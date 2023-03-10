@@ -3,7 +3,9 @@ import * as C from './App.styles';
 function App() {
   return (
     <C.Container>
-      <C.Area>Hello World</C.Area>
+      <C.Area>
+        <C.Header>Lista de Tarefas</C.Header>
+      </C.Area>
     </C.Container>
   );
 }
